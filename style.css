@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0%;
+}
+body{
+    background-color: rgba(240, 205, 157, 0.253);
+}
+.logo img{
+    height: 60px;
+    display: block;
+    margin: auto;
+}
+
+.logo h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.container{
+    background: url(img/background.png);
+    height: 400px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    border: 1px transparent;
+    border-radius: 10px;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+#msg{
+    padding-top: 35px;
+}
+.send{
+    margin: 10px 12px;
+    padding-right: 17px;
+    float: right;
+    width: 200px;
+    height: auto;
+    clear: both;
+    border: 2px solid rgba(85, 184, 90, 0.671);
+    background-color: rgba(85, 184, 90, 0.671);
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    overflow-x: hidden;
+    word-wrap: break-word;
+    overflow-y: hidden;
+}
+
+
+.receive{
+    float: left;
+    clear: both;
+    border: 2px solid rgb(250, 248, 248);
+    width: 200px;
+    height: auto;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: block;
+    margin: 10px 12px;
+    padding-left: 12px 0px;
+    overflow-y: hidden;
+    word-wrap: break-word;
+
+    
+}
+#type-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#msginput{
+    width: 495px;
+    margin: 0px 5px;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 14px;
+    padding: 0px 15px;
+}
+    
+    
+
+.btn{
+    width: 60px;
+    margin: 0px 5px;
+    height: 33px;
+    border-radius: 14px;
+    color: white;
+    border: 1px solid rgba(85, 184, 90, 0.671);
+    background-color: rgba(50, 139, 54, 0.671);
+}
+
+@media(max-width:560px){
+
+    .container{
+        height: 570px;
+    width: 365px;
+    
+    }
+    .logo h1 {
+        font-size: 1.5rem;}
+
+        #msginput{
+            width: 254px;
+    
+        }
+}
